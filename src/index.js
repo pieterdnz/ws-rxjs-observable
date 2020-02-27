@@ -1,5 +1,5 @@
-import "./styles.css";
-import { add, initBody } from "./helpers";
+import "@bospieter/ws-helper/styles.css";
+import { add, initBody } from "@bospieter/ws-helper";
 import { interval } from "rxjs";
 import { map, take } from "rxjs/operators";
 
